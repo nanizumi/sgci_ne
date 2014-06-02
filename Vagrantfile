@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
     config.vm.box_url = "https://vagrantcloud.com/ubuntu/trusty64/version/1/provider/virtualbox.box"
 	config.vm.host_name = "yiivagrant"
 
-    config.vm.network :private_network, ip: "192.168.33.99"
+    #config.vm.network :private_network, ip: "192.168.33.99"
     config.ssh.forward_agent = true
 
     # Port forwards
